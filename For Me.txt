@@ -1,0 +1,5 @@
+I made use of Mail for hosting on 000webhost because I do not have access to SMTP when hosting for free.
+I changed my token because it is too random and changes already before mail is already sent
+So it changes every minute now not second and I removed the random number too
+New token - $token = md5(date('i')+123456789% 10); 
+PHPMailer is working fine if you want to host on a paid website 

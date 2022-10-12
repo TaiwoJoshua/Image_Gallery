@@ -1,0 +1,19 @@
+Pictures-Gallery - Project name
+cUCexULNQV(K)Z)6J%2q - Password
+
+email - olamilekanjoshua07@gmail.com
+password - 85A.nd),htBf,!z
+
+Database name - ImageGallery
+Database username - TeeJay
+Password - 
+
+DBName - id16488499_imagegallery
+DBUser - id16488499_teejay
+DBHost - localhost
+Password - Iloveyou.joshua07
+
+$server="localhost";
+$serverUsername="id16488499_teejay";
+$serverPassword="(x~nZ(oWUIpp0/IT";
+$dbName="id16488499_imagegallery";

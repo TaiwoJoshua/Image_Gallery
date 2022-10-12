@@ -1,0 +1,118 @@
+.loginpagewrapper{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    padding: 5em;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+.loginformwrapper{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    box-shadow:5px 5px 20px rgb(166, 132, 251);
+    padding: 20px;
+    background-color: white;
+}
+.loginh2{
+    margin: 5px auto;
+}
+#uName, #pWord, #emails, #numbers{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #22046b;
+    outline: none;
+    margin-bottom: 5px;
+}
+#lsubmit{
+    background-color: #22046b;
+    color: white;
+    margin: auto;
+}
+#account{
+    color: #22046b;
+    font-size: 17px;
+}
+#lsignup{
+    font-size: 12px;
+    padding: 3px;
+    outline: none;
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: none;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+#eye:hover, #eye2:hover, #eye3:hover, .close:hover{
+    cursor: pointer;
+}
+.others{
+    display: flex;
+    width: 100%;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #22046b;
+}
+.pnumber, .usemail, .puser{
+    padding: 10px;
+    box-sizing: border-box;
+    padding-right: 15px;
+    text-align: center;
+    font-size: 12px;
+    height: 40px;
+}
+.pnumber:hover, .usemail:hover, .puser:hover{
+    cursor: pointer;
+    background-color: #22046b;
+    color: white;
+}
+.pnumber{
+    border-right: 2px solid white;
+}
+.invisible{
+    display: none;
+}
+.visible{
+    display: block;
+}
+.forget{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* <------------------- Media Query Section ---------------------> */
+@media screen and (max-width: 780px) and (min-width: 320px){
+    .loginpagewrapper{
+        width: 100%;
+        padding: 0;
+        padding-top: 5em;
+    }
+    
+    .loginformwrapper{
+        width: 300px;
+    }
+    #lsubmit{
+        width: 50%;
+        padding: 10px;
+        font-size: 12px;
+    }
+    #account, #lsignup{
+        font-size: 13px;
+    }
+}

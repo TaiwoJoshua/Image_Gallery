@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #22046b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pagewrapper{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: white;
+    z-index: 3;
+}
+.formwrapper{
+    width: 70%;
+    height: auto;
+    display: grid;
+    margin-top: 2em;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+}
+.img{
+    height: 500px;
+    background: url(../img/semen-borisov-gCq65qN53RI-unsplash.jpg) center no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+p{
+    color: #e7c82f;
+    font-size: 20px;
+}
+.production{
+    margin-top: 3em;
+    width: 50%;
+}
+.access{
+    width: 80%;
+    font-size: 20px;
+    color: #e7c82f;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form>h1{
+    text-align: center;
+    word-wrap: wrap;
+}
+.form>div, #submit{
+    margin-top: 15px;
+}
+#first{
+    margin: 0;
+}
+::placeholder{
+    color: #22046b;
+}
+input[type="text"]{
+    border: 2px solid #22046b;
+    outline: none;
+}
+input[type="password"]{
+    border: 2px solid #22046b;
+    outline: none;
+}
+input[type="email"]{
+    border: 2px solid #22046b;
+    outline: none;
+}
+input[type="submit"]{
+    background-color: white;
+    width: 35%;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 5px;
+    color: #22046b;
+    border: 2px solid #22046b;
+    outline: none;
+}
+button>a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    border: 2px solid #22046b;
+    background-color: #22046b;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+}
+button:hover, input[type="submit"]:hover{
+    cursor: pointer;
+}
+span{
+    color: #e7c82f;
+}
+.red{
+    color: red;
+    font-size: 12px;
+    text-align: center;
+    margin: 2px 0 0 0;
+}
+.green{
+    text-align: center;
+    color: green;
+    font-size: 12px;
+}
+#note{
+    width: 200px;
+    color: #22046b;
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
+}
+
+/* <------------------- Media Query Section ---------------------> */
+@media screen and (max-width: 780px) and (min-width: 320px){
+    .formwrapper{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .form{
+        min-height: 80vh;
+    }
+    p{
+        font-size: 13px;
+    }
+}
